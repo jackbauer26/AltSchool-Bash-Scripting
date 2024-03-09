@@ -21,7 +21,7 @@ then
 fi
 
 list_all=false
-top_entries=0
+top_entries=8
 
 while getopts ":dn:" opt; do
     case ${opt} in 
